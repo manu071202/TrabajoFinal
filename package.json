@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src/index.js -d dist",
-    "start": "babel-node src/index.js",
+    "start": "babel-node src/controllers/usuarios.js",
     "dev": "nodemon --exec babel-node src/index.js"
-   }, 
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -21,6 +21,9 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/node": "^7.20.7",
     "nodemon": "^2.0.22"
   }
 }
