@@ -1,3 +1,18 @@
+let express = require("express")
+const v1WorkoutRouter = require('./v1/routes/workoutRoutes')
+
+
+let app = express();
+let PORT = process.env.PORT ||3000
+
+app.use(express.json())
+app.use("/api/v1/workouts", v1WorkoutRouter)
+
+app.listen(PORT),()=>{
+console.log(`servidor leyendo en` + PORT)
+
+}
+
 {/*
 const express = require("express");
 const cors = require("cors");
