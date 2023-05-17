@@ -1,4 +1,7 @@
-{
+{"usuarios":[
+
+    
+    {
     "workout":[
         {
             "id":"1",
@@ -9,7 +12,20 @@
         "21 thrusters",
         "12 rope climbs"
     ]
-}
+},
+{
+    "workout":[
+        {
+            "id":"2",
+        "name":"tommy"        
+    }
+    ],
+    "exercises":[
+        "21 thrusters",
+        "12 rope climbs"
+    ]
+
+},
 {
     "workout":[
         {
@@ -23,16 +39,4 @@
     ]
 
 }
-{
-    "workout":[
-        {
-            "id":"1",
-        "name":"tommy"        
-    }
-    ],
-    "exercises":[
-        "21 thrusters",
-        "12 rope climbs"
-    ]
-
-}
+]}
